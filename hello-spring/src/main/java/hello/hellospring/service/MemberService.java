@@ -25,6 +25,7 @@ public class MemberService {
 
         memberRepository.save(member);
         return member.getId();
+
     }
 
     private void validateDuplicateMember(Member member) {
