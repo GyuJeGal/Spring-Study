@@ -38,6 +38,15 @@ public class BasicItemController {
 
    }
 
+   @GetMapping("/add")
+   public String addForm() {
+       return "basic/addForm";
+   }
+
+   @PostMapping("/add")
+   public String save() {
+       return "basic/addForm";
+   }
 
    @PostConstruct
     public void init() {
