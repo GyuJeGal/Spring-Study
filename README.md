@@ -9,3 +9,5 @@
 - MVC pattern with Servlet
 - MVC pattern with Spring
 - Item-Service web page
+## 4. Spring MVC2
+- Thymeleaf basic
