@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpSession;
+import javax.swing.*;
 import java.sql.Array;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -98,6 +99,12 @@ public class BasicController {
     public String condition(Model model) {
         addUsers(model);
         return "basic/condition";
+    }
+
+    @GetMapping("/comments")
+    public String comments(Model model) {
+        model.addAttribute("data", "Spring!");
+        return "basic/comments";
     }
 
     private void addUsers(Model model) {
