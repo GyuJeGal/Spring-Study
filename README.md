@@ -11,3 +11,5 @@
 - Item-Service web page
 ## 4. Spring MVC2
 - Thymeleaf basic
+## 5. JAVA ORM standard JPA
+- JPA basic
